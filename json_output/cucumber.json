@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Validate Orange HRM HomePage Test",
+        "description": "",
+        "id": "orange-hrm-application-test;validate-orange-hrm-homepage-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 25351538667,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User launches the browser",
+            "match": {
+              "location": "HomePageSteps.user_launches_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 38185111,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on login Page",
+            "match": {
+              "location": "HomePageSteps.user_is_on_login_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12820182778,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters username and password",
+            "match": {
+              "location": "HomePageSteps.user_enters_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7888163,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Validate Home Page title",
+            "match": {
+              "location": "HomePageSteps.validate_Home_Page_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2272807995,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Validate logged in user",
+            "match": {
+              "location": "HomePageSteps.validate_logged_in_user()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Orange HRM Application Test",
+    "description": "",
+    "id": "orange-hrm-application-test",
+    "keyword": "Feature",
+    "uri": "/Users/suman/eclipse-workspace/POMwithCucumber/src/main/java/com/qa/feature/orangehrm.feature"
+  }
+]
